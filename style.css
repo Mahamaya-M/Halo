@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-info:hover{
+    background-color: #ad54c4;
+}
+canvas{
+    animation-name: metamorphosis;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes metamorphosis{
+0%{box-shadow:1px 1px 38px #a02500;}
+50%{box-shadow: 1px 1px 38px  #222222;}
+100%{box-shadow:1px 1px 38px #cc7400;}
+}
+body{
+background-size: cover;
+}
